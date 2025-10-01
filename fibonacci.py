@@ -16,9 +16,9 @@ while True:
     
 # Use a for loop to print the Fibonacci sequence up to that many terms.
 a, b = 0, 1
-    for i in range(n):
-        print(a, end=" ")
-        a, b = b, a + b
-    print()  # newline
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+print()  # newline
 
 
